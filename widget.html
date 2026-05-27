@@ -96,12 +96,24 @@
     line-height: 1.5;
   }
   .summary strong { color: #2c3345; }
+  .hint {
+    margin-top: 4px;
+    font-size: 12px;
+    color: #57647e;
+    font-style: italic;
+  }
 </style>
 </head>
 <body>
 
 <div id="cascade">
   <div id="notice" class="notice hidden"></div>
+
+  <div class="field" id="field-product">
+    <label class="label" for="sel-product">Product<span class="req">*</span></label>
+    <select id="sel-product"><option value="">Select product...</option></select>
+    <div class="hint">Pick the product type for this line item to begin.</div>
+  </div>
 
   <div class="field hidden" id="field-brand">
     <label class="label" for="sel-brand">Digital Brand<span class="req">*</span></label>
@@ -149,7 +161,7 @@
   var mapping = null;            // loaded JSON
   var lineItemName = '';         // injected from Jotform
   var selection = {
-    brand: '', option: '', adUnit: '', adType: '', position: ''
+    product: '', brand: '', option: '', adUnit: '', adType: '', position: ''
   };
 
   // ====================================================================
@@ -159,6 +171,7 @@
     notice:   document.getElementById('notice'),
     summary:  document.getElementById('summary'),
     fields: {
+      product:  document.getElementById('field-product'),
       brand:    document.getElementById('field-brand'),
       option:   document.getElementById('field-option'),
       adUnit:   document.getElementById('field-adunit'),
@@ -166,6 +179,7 @@
       position: document.getElementById('field-position')
     },
     selects: {
+      product:  document.getElementById('sel-product'),
       brand:    document.getElementById('sel-brand'),
       option:   document.getElementById('sel-option'),
       adUnit:   document.getElementById('sel-adunit'),
@@ -203,7 +217,7 @@
   }
 
   function resetBelow(level) {
-    // levels: brand=1, option=2, adUnit=3, adType=4, position=5
+    // levels: product=0, brand=1, option=2, adUnit=3, adType=4, position=5
     var order = ['brand', 'option', 'adUnit', 'adType', 'position'];
     for (var i = level; i < order.length; i++) {
       var key = order[i];
@@ -237,14 +251,50 @@
       setNotice('Configuration data not loaded.', true);
       return;
     }
-    var productNode = mapping.products[lineItemName];
+
+    // Populate the product picker with all configured products
+    var products = Object.keys(mapping.products).sort();
+    fillSelect(els.selects.product, products, 'Select product...');
+    show(els.fields.product);
+
+    // If lineItemName was prefilled from the URL or Jotform setting AND
+    // matches a known product, auto-select it (saves the user a click).
+    if (lineItemName && mapping.products[lineItemName]) {
+      els.selects.product.value = lineItemName;
+      onProductChange();
+    } else if (lineItemName) {
+      // We have a value but it doesn't match — show a friendly hint
+      setNotice('Line item product not recognized. Please select manually below.', false);
+    } else {
+      setNotice('');
+    }
+  }
+
+  function onProductChange() {
+    var product = els.selects.product.value;
+    selection.product = product;
+    // Reset everything below product
+    selection.brand = ''; selection.option = ''; selection.adUnit = '';
+    selection.adType = ''; selection.position = '';
+    els.selects.brand.value = ''; els.selects.option.value = '';
+    els.selects.adUnit.value = ''; els.selects.adType.value = '';
+    els.selects.position.value = '';
+    hide(els.fields.brand); hide(els.fields.option);
+    hide(els.fields.adUnit); hide(els.fields.adType); hide(els.fields.position);
+
+    if (!product) {
+      writeBack();
+      updateSummary();
+      return;
+    }
+
+    // Update the lineItemName state to reflect the picked product so the
+    // rest of the cascade logic (which keys off lineItemName) works.
+    lineItemName = product;
+
+    var productNode = mapping.products[product];
     if (!productNode) {
-      setNotice(
-        'This product (' + (lineItemName || 'unknown') + ') is not yet configured for the cascade.',
-        false
-      );
-      // Hide all selects
-      Object.keys(els.fields).forEach(function (k) { hide(els.fields[k]); });
+      setNotice('Product "' + product + '" is not configured.', true);
       writeBack();
       return;
     }
@@ -252,6 +302,8 @@
     var brands = Object.keys(productNode).sort();
     fillSelect(els.selects.brand, brands, 'Select brand...');
     show(els.fields.brand);
+    writeBack();
+    updateSummary();
   }
 
   function onBrandChange() {
@@ -342,6 +394,7 @@
   // your backend) can JSON.parse() it to get all 5 cascade values.
   function buildValue() {
     return JSON.stringify({
+      product:  selection.product || lineItemName,
       lineItemName: lineItemName,
       brand:    selection.brand,
       option:   selection.option,
@@ -362,13 +415,15 @@
   // Validation: only require fields that are visible
   function validateForJotform() {
     var msg = '';
-    if (!mapping || !mapping.products[lineItemName]) {
+    if (!selection.product) {
+      msg = 'Please select a Product.';
+    } else if (!mapping || !mapping.products[selection.product]) {
       return { valid: true, message: '' }; // unconfigured products don't block submit
-    }
-    if (!selection.brand)  msg = 'Please select a Digital Brand.';
-    else if (!selection.option) msg = 'Please select a Digital Option.';
-    else if (selection.option !== '(No Option)') {
-      // If ad unit field is visible, require it
+    } else if (!selection.brand) {
+      msg = 'Please select a Digital Brand.';
+    } else if (!selection.option) {
+      msg = 'Please select a Digital Option.';
+    } else if (selection.option !== '(No Option)') {
       if (!els.fields.adUnit.classList.contains('hidden') && !selection.adUnit)
         msg = 'Please select a Digital Ad Unit.';
       else if (!els.fields.adType.classList.contains('hidden') && !selection.adType)
@@ -382,6 +437,7 @@
   // ====================================================================
   // INIT
   // ====================================================================
+  els.selects.product.addEventListener('change', onProductChange);
   els.selects.brand.addEventListener('change', onBrandChange);
   els.selects.option.addEventListener('change', onOptionChange);
   els.selects.adUnit.addEventListener('change', onAdUnitChange);
@@ -396,8 +452,8 @@
     })
     .then(function (data) {
       mapping = data;
-      // If we already have a lineItemName (ready fired first), kick off cascade
-      if (lineItemName) startCascade();
+      // Always kick off the cascade (the product picker is the entry point now)
+      startCascade();
     })
     .catch(function (err) {
       setNotice('Could not load configuration data. ' + err.message, true);
@@ -426,8 +482,14 @@
   // First, set lineItemName from the parent URL as the baseline
   var fromUrl = readLineItemNameFromParent();
   if (fromUrl) {
-    lineItemName = decodeURIComponent(fromUrl).trim();
-    console.log('[NorthstarCascade] lineItemName from parent URL:', JSON.stringify(lineItemName));
+    var decoded = decodeURIComponent(fromUrl).trim();
+    // Filter out unresolved Jotform placeholders like "{lineitemname}"
+    if (/^\{[a-zA-Z_][a-zA-Z0-9_]*\}$/.test(decoded)) {
+      console.log('[NorthstarCascade] URL value is an unresolved placeholder, ignoring');
+    } else {
+      lineItemName = decoded;
+      console.log('[NorthstarCascade] lineItemName from parent URL:', JSON.stringify(lineItemName));
+    }
   }
 
   // Hook Jotform SDK if present — the SDK can give us a widget setting
@@ -451,9 +513,17 @@
       }
 
       if (settingValue) {
-        lineItemName = settingValue.trim();
+        // Filter out unresolved Jotform placeholders like "{lineitemname}"
+        // — those happen when the setting reference didn't resolve.
+        if (/^\{[a-zA-Z_][a-zA-Z0-9_]*\}$/.test(settingValue.trim())) {
+          console.log('[NorthstarCascade] settingValue is an unresolved placeholder, ignoring');
+        } else {
+          lineItemName = settingValue.trim();
+        }
       }
 
+      // Re-run the cascade so it can auto-select the product if we now
+      // have a recognized lineItemName from the SDK.
       if (mapping) startCascade();
     });
 
@@ -468,8 +538,8 @@
     console.warn('[NorthstarCascade] Jotform SDK not found — running in standalone mode (no write-back)');
   }
 
-  // If mapping has already loaded and we have a lineItemName, kick off
-  if (mapping && lineItemName) startCascade();
+  // If mapping is already loaded, kick off (product picker is the entry point)
+  if (mapping) startCascade();
 })();
 </script>
 
