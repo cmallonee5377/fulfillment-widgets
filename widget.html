@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Northstar Digital Fulfillment Cascade</title>
+<script src="https://cdn.jotfor.ms/s/umd/latest/for-form-widgets.js"></script>
+<style>
+  /*
+   * Visual goal: match the Jotform default form theme.
+   * Jotform's default uses ~16px sans-serif, light gray borders,
+   * a touch of padding, and 4px border radius. We mirror that.
+   */
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    color: #2c3345;
+  }
+  #cascade {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 4px 0;
+  }
+  .field {
+    display: flex;
+    flex-direction: column;
+  }
+  .field.hidden {
+    display: none;
+  }
+  .label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #57647e;
+    margin-bottom: 4px;
+  }
+  .label .req {
+    color: #d12c2c;
+    margin-left: 2px;
+  }
+  select {
+    appearance: none;
+    -webkit-appearance: none;
+    background-color: #fff;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%2357647e' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 12px;
+    border: 1px solid #cad0db;
+    border-radius: 4px;
+    padding: 9px 36px 9px 12px;
+    font-size: 16px;
+    color: #2c3345;
+    width: 100%;
+    cursor: pointer;
+    transition: border-color 0.15s ease;
+  }
+  select:hover {
+    border-color: #57647e;
+  }
+  select:focus {
+    outline: none;
+    border-color: #4573e3;
+    box-shadow: 0 0 0 3px rgba(69, 115, 227, 0.15);
+  }
+  select:disabled {
+    background-color: #f4f6fa;
+    color: #98a0b3;
+    cursor: not-allowed;
+  }
+  .notice {
+    padding: 12px 14px;
+    background: #fff8e6;
+    border: 1px solid #f0d97a;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #6b5300;
+  }
+  .notice.error {
+    background: #fdecea;
+    border-color: #f5a8a1;
+    color: #8a1f15;
+  }
+  .summary {
+    margin-top: 4px;
+    padding: 10px 12px;
+    background: #f4f6fa;
+    border-radius: 4px;
+    font-size: 13px;
+    color: #57647e;
+    line-height: 1.5;
+  }
+  .summary strong { color: #2c3345; }
+</style>
+</head>
+<body>
+
+<div id="cascade">
+  <div id="notice" class="notice hidden"></div>
+
+  <div class="field hidden" id="field-brand">
+    <label class="label" for="sel-brand">Digital Brand<span class="req">*</span></label>
+    <select id="sel-brand"><option value="">Select brand...</option></select>
+  </div>
+
+  <div class="field hidden" id="field-option">
+    <label class="label" for="sel-option">Digital Option<span class="req">*</span></label>
+    <select id="sel-option"><option value="">Select option...</option></select>
+  </div>
+
+  <div class="field hidden" id="field-adunit">
+    <label class="label" for="sel-adunit">Digital Ad Unit<span class="req">*</span></label>
+    <select id="sel-adunit"><option value="">Select ad unit...</option></select>
+  </div>
+
+  <div class="field hidden" id="field-adtype">
+    <label class="label" for="sel-adtype">Digital Ad Type</label>
+    <select id="sel-adtype"><option value="">Select ad type...</option></select>
+  </div>
+
+  <div class="field hidden" id="field-position">
+    <label class="label" for="sel-position">Digital Position</label>
+    <select id="sel-position"><option value="">Select position...</option></select>
+  </div>
+
+  <div id="summary" class="summary hidden"></div>
+</div>
+
+<script>
+(function () {
+  'use strict';
+
+  // ====================================================================
+  // CONFIG
+  // ====================================================================
+  // The mapping JSON URL. Replace with your hosted copy. For POC:
+  // GitHub Pages: https://<user>.github.io/<repo>/mapping.json
+  // Supabase:     https://<project>.supabase.co/storage/v1/object/public/<bucket>/mapping.json
+  var MAPPING_URL = 'https://cmallonee5377.github.io/fulfillment-widgets/mapping.json';
+
+  // ====================================================================
+  // STATE
+  // ====================================================================
+  var mapping = null;            // loaded JSON
+  var lineItemName = '';         // injected from Jotform
+  var selection = {
+    brand: '', option: '', adUnit: '', adType: '', position: ''
+  };
+
+  // ====================================================================
+  // ELEMENT REFS
+  // ====================================================================
+  var els = {
+    notice:   document.getElementById('notice'),
+    summary:  document.getElementById('summary'),
+    fields: {
+      brand:    document.getElementById('field-brand'),
+      option:   document.getElementById('field-option'),
+      adUnit:   document.getElementById('field-adunit'),
+      adType:   document.getElementById('field-adtype'),
+      position: document.getElementById('field-position')
+    },
+    selects: {
+      brand:    document.getElementById('sel-brand'),
+      option:   document.getElementById('sel-option'),
+      adUnit:   document.getElementById('sel-adunit'),
+      adType:   document.getElementById('sel-adtype'),
+      position: document.getElementById('sel-position')
+    }
+  };
+
+  // ====================================================================
+  // UTILITIES
+  // ====================================================================
+  function show(el) { el.classList.remove('hidden'); }
+  function hide(el) { el.classList.add('hidden'); }
+
+  function setNotice(msg, isError) {
+    if (!msg) { hide(els.notice); return; }
+    els.notice.textContent = msg;
+    els.notice.classList.toggle('error', !!isError);
+    show(els.notice);
+  }
+
+  function fillSelect(selectEl, items, placeholder) {
+    // Reset
+    selectEl.innerHTML = '';
+    var ph = document.createElement('option');
+    ph.value = '';
+    ph.textContent = placeholder || 'Select...';
+    selectEl.appendChild(ph);
+    items.forEach(function (item) {
+      var opt = document.createElement('option');
+      opt.value = item;
+      opt.textContent = item;
+      selectEl.appendChild(opt);
+    });
+  }
+
+  function resetBelow(level) {
+    // levels: brand=1, option=2, adUnit=3, adType=4, position=5
+    var order = ['brand', 'option', 'adUnit', 'adType', 'position'];
+    for (var i = level; i < order.length; i++) {
+      var key = order[i];
+      selection[key] = '';
+      els.selects[key].value = '';
+      hide(els.fields[key]);
+    }
+  }
+
+  function updateSummary() {
+    var parts = [];
+    if (selection.brand)    parts.push('<strong>Brand:</strong> ' + selection.brand);
+    if (selection.option && selection.option !== '(No Option)')
+                            parts.push('<strong>Option:</strong> ' + selection.option);
+    if (selection.adUnit)   parts.push('<strong>Ad Unit:</strong> ' + selection.adUnit);
+    if (selection.adType)   parts.push('<strong>Ad Type:</strong> ' + selection.adType);
+    if (selection.position) parts.push('<strong>Position:</strong> ' + selection.position);
+    if (parts.length >= 2) {
+      els.summary.innerHTML = parts.join(' &nbsp;&middot;&nbsp; ');
+      show(els.summary);
+    } else {
+      hide(els.summary);
+    }
+  }
+
+  // ====================================================================
+  // CASCADE LOGIC
+  // ====================================================================
+  function startCascade() {
+    if (!mapping || !mapping.products) {
+      setNotice('Configuration data not loaded.', true);
+      return;
+    }
+    var productNode = mapping.products[lineItemName];
+    if (!productNode) {
+      setNotice(
+        'This product (' + (lineItemName || 'unknown') + ') is not yet configured for the cascade.',
+        false
+      );
+      // Hide all selects
+      Object.keys(els.fields).forEach(function (k) { hide(els.fields[k]); });
+      writeBack();
+      return;
+    }
+    setNotice('');
+    var brands = Object.keys(productNode).sort();
+    fillSelect(els.selects.brand, brands, 'Select brand...');
+    show(els.fields.brand);
+  }
+
+  function onBrandChange() {
+    var brand = els.selects.brand.value;
+    selection.brand = brand;
+    resetBelow(1);
+    if (!brand) { writeBack(); updateSummary(); return; }
+
+    var brandNode = mapping.products[lineItemName][brand];
+    var options = Object.keys(brandNode).sort(function (a, b) {
+      // Keep (No Option) at the end
+      if (a === '(No Option)') return 1;
+      if (b === '(No Option)') return -1;
+      return a.localeCompare(b);
+    });
+    fillSelect(els.selects.option, options, 'Select option...');
+    show(els.fields.option);
+    writeBack();
+    updateSummary();
+  }
+
+  function onOptionChange() {
+    var option = els.selects.option.value;
+    selection.option = option;
+    resetBelow(2);
+    if (!option) { writeBack(); updateSummary(); return; }
+
+    // (No Option) short-circuits the rest of the cascade
+    if (option === '(No Option)') {
+      writeBack();
+      updateSummary();
+      return;
+    }
+
+    var optNode = mapping.products[lineItemName][selection.brand][option];
+    var adUnits = Object.keys(optNode || {}).sort();
+    if (adUnits.length === 0) {
+      // Option has no ad units — end of cascade
+      writeBack();
+      updateSummary();
+      return;
+    }
+    fillSelect(els.selects.adUnit, adUnits, 'Select ad unit...');
+    show(els.fields.adUnit);
+    writeBack();
+    updateSummary();
+  }
+
+  function onAdUnitChange() {
+    var adUnit = els.selects.adUnit.value;
+    selection.adUnit = adUnit;
+    resetBelow(3);
+    if (!adUnit) { writeBack(); updateSummary(); return; }
+
+    var auNode = mapping.products[lineItemName][selection.brand][selection.option][adUnit];
+    var adTypes  = (auNode && auNode.adTypes)   || [];
+    var positions = (auNode && auNode.positions) || [];
+
+    if (adTypes.length > 0) {
+      fillSelect(els.selects.adType, adTypes, 'Select ad type...');
+      show(els.fields.adType);
+    }
+    if (positions.length > 0) {
+      fillSelect(els.selects.position, positions, 'Select position...');
+      show(els.fields.position);
+    }
+    writeBack();
+    updateSummary();
+  }
+
+  function onAdTypeChange() {
+    selection.adType = els.selects.adType.value;
+    writeBack();
+    updateSummary();
+  }
+
+  function onPositionChange() {
+    selection.position = els.selects.position.value;
+    writeBack();
+    updateSummary();
+  }
+
+  // ====================================================================
+  // JOTFORM SDK BRIDGE
+  // ====================================================================
+  // The widget value is a single JSON-stringified object that the
+  // Jotform submission stores. Downstream consumers (HubSpot webhook,
+  // your backend) can JSON.parse() it to get all 5 cascade values.
+  function buildValue() {
+    return JSON.stringify({
+      lineItemName: lineItemName,
+      brand:    selection.brand,
+      option:   selection.option,
+      adUnit:   selection.adUnit,
+      adType:   selection.adType,
+      position: selection.position
+    });
+  }
+
+  function writeBack() {
+    try {
+      JFCustomWidget.sendData({ value: buildValue() });
+    } catch (e) {
+      // Outside Jotform (preview / standalone) — ignore
+    }
+  }
+
+  // Validation: only require fields that are visible
+  function validateForJotform() {
+    var msg = '';
+    if (!mapping || !mapping.products[lineItemName]) {
+      return { valid: true, message: '' }; // unconfigured products don't block submit
+    }
+    if (!selection.brand)  msg = 'Please select a Digital Brand.';
+    else if (!selection.option) msg = 'Please select a Digital Option.';
+    else if (selection.option !== '(No Option)') {
+      // If ad unit field is visible, require it
+      if (!els.fields.adUnit.classList.contains('hidden') && !selection.adUnit)
+        msg = 'Please select a Digital Ad Unit.';
+      else if (!els.fields.adType.classList.contains('hidden') && !selection.adType)
+        msg = 'Please select a Digital Ad Type.';
+      else if (!els.fields.position.classList.contains('hidden') && !selection.position)
+        msg = 'Please select a Digital Position.';
+    }
+    return { valid: !msg, message: msg };
+  }
+
+  // ====================================================================
+  // INIT
+  // ====================================================================
+  els.selects.brand.addEventListener('change', onBrandChange);
+  els.selects.option.addEventListener('change', onOptionChange);
+  els.selects.adUnit.addEventListener('change', onAdUnitChange);
+  els.selects.adType.addEventListener('change', onAdTypeChange);
+  els.selects.position.addEventListener('change', onPositionChange);
+
+  // Load mapping
+  fetch(MAPPING_URL, { cache: 'no-cache' })
+    .then(function (r) {
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      return r.json();
+    })
+    .then(function (data) {
+      mapping = data;
+      // If we already have a lineItemName (ready fired first), kick off cascade
+      if (lineItemName) startCascade();
+    })
+    .catch(function (err) {
+      setNotice('Could not load configuration data. ' + err.message, true);
+    });
+
+  // Hook Jotform lifecycle
+  if (typeof JFCustomWidget !== 'undefined') {
+    JFCustomWidget.subscribe('ready', function (data) {
+      // The widget's "linkedFieldName" or settings can carry the product name.
+      // We pull from a widget setting called "lineItemName" that the form-builder
+      // will populate with the Jotform field reference {lineitemname}.
+      try {
+        var passed = JFCustomWidget.getWidgetSetting('lineItemName') || '';
+        lineItemName = (passed || '').trim();
+      } catch (e) {
+        lineItemName = '';
+      }
+      if (mapping) startCascade();
+    });
+
+    JFCustomWidget.subscribe('submit', function () {
+      var v = validateForJotform();
+      JFCustomWidget.sendSubmit({
+        valid: v.valid,
+        value: buildValue()
+      });
+    });
+  } else {
+    // Standalone preview: try a query string ?p=Product+Name for local testing
+    var qs = new URLSearchParams(window.location.search);
+    lineItemName = qs.get('p') || '';
+  }
+})();
+</script>
+
+</body>
+</html>

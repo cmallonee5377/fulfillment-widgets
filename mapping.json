@@ -1,0 +1,6764 @@
+{
+  "products": {
+    "On-Site Advertising: Native": {
+      "HITcom": {
+        "Native Ad": {
+          "Branded Content": {
+            "adTypes": [
+              "Static Content",
+              "Video"
+            ],
+            "positions": [
+              "Run of Site"
+            ]
+          }
+        }
+      },
+      "INCcom": {
+        "Native Ad": {
+          "Branded Content": {
+            "adTypes": [
+              "Static Content",
+              "Video"
+            ],
+            "positions": [
+              "Run of Site"
+            ]
+          }
+        }
+      },
+      "MCO": {
+        "Native Ad": {
+          "Branded Content": {
+            "adTypes": [
+              "Static Content",
+              "Video"
+            ],
+            "positions": [
+              "Run of Site"
+            ]
+          }
+        }
+      },
+      "NMG": {
+        "Native Ad": {
+          "Branded Content": {
+            "adTypes": [
+              "Static Content",
+              "Video"
+            ],
+            "positions": [
+              "Run of Site"
+            ]
+          }
+        }
+      },
+      "NMG UK": {
+        "Native Ad": {
+          "Branded Content": {
+            "adTypes": [
+              "Static Content"
+            ],
+            "positions": [
+              "Run of Network",
+              "Run of Site"
+            ]
+          }
+        }
+      },
+      "PCWWcom": {
+        "Native Ad": {
+          "Branded Content": {
+            "adTypes": [
+              "Static Content",
+              "Video"
+            ],
+            "positions": [
+              "Run of Site"
+            ]
+          }
+        }
+      },
+      "SMcom": {
+        "Native Ad": {
+          "Branded Content": {
+            "adTypes": [
+              "Static Content",
+              "Video"
+            ],
+            "positions": [
+              "Run of Site"
+            ]
+          }
+        }
+      },
+      "SPO": {
+        "Native Ad": {
+          "Branded Content": {
+            "adTypes": [
+              "Static Content",
+              "Video"
+            ],
+            "positions": [
+              "Run of Site"
+            ]
+          }
+        }
+      },
+      "TAWcom": {
+        "Native Ad": {
+          "Branded Content": {
+            "adTypes": [
+              "Static Content",
+              "Video"
+            ],
+            "positions": [
+              "Run of Site"
+            ]
+          }
+        }
+      },
+      "TPCA": {
+        "Native Ad": {
+          "Branded Content": {
+            "adTypes": [
+              "Static Content",
+              "Video"
+            ],
+            "positions": [
+              "Run of Site"
+            ]
+          }
+        }
+      },
+      "TPQUE": {
+        "Native Ad": {
+          "Branded Content": {
+            "adTypes": [
+              "Static Content",
+              "Video"
+            ],
+            "positions": [
+              "Run of Site"
+            ]
+          }
+        }
+      },
+      "TPUS": {
+        "Native Ad": {
+          "Branded Content": {
+            "adTypes": [
+              "Static Content",
+              "Video"
+            ],
+            "positions": [
+              "Run of Site"
+            ]
+          }
+        }
+      },
+      "TWcom": {
+        "Native Ad": {
+          "Branded Content": {
+            "adTypes": [
+              "Static Content",
+              "Video"
+            ],
+            "positions": [
+              "Run of Site"
+            ]
+          }
+        }
+      }
+    },
+    "On-Site Advertising: Run of Site": {
+      "AMIcom": {
+        "Run of Site": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        }
+      },
+      "BLO": {
+        "Run of Site": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        }
+      },
+      "BTNEcom": {
+        "Run of Site": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        }
+      },
+      "BTNcom": {
+        "Run of Site": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Modal 500x620": {
+            "adTypes": [],
+            "positions": []
+          }
+        }
+      },
+      "BTSEcom": {
+        "Run of Site": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile 320x50": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        }
+      },
+      "BTScom": {
+        "Run of Site": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        }
+      },
+      "CScom": {
+        "Run of Site": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        }
+      },
+      "HITcom": {
+        "Run of Site": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        }
+      },
+      "INCcom": {
+        "Run of Site": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [
+              "Video"
+            ],
+            "positions": []
+          },
+          "Bottom Leaderboard": {
+            "adTypes": [
+              "Video"
+            ],
+            "positions": []
+          },
+          "Footer Ad": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Top Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        }
+      },
+      "MCAcom": {
+        "Run of Site": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Bottom Leaderboard": {
+            "adTypes": [
+              "Video"
+            ],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Top Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        }
+      },
+      "MCCcom": {
+        "Run of Site": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Bottom Leaderboard": {
+            "adTypes": [
+              "Video"
+            ],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Top Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        }
+      },
+      "MCO": {
+        "Run of Site": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [
+              "Video"
+            ],
+            "positions": []
+          },
+          "Bottom Leaderboard": {
+            "adTypes": [
+              "Video"
+            ],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Top Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        }
+      },
+      "MITcom": {
+        "Run of Site": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        }
+      },
+      "NMG": {
+        "Run of Site": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [
+              "Video"
+            ],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile 320x100": {
+            "adTypes": [
+              "Adhesive Unit"
+            ],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        }
+      },
+      "NMG UK": {
+        "Run of Site": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        }
+      },
+      "PCWWcom": {
+        "Run of Site": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [
+              "Video"
+            ],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        }
+      },
+      "SMcom": {
+        "Run of Site": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [
+              "Video"
+            ],
+            "positions": []
+          },
+          "Bottom Leaderboard": {
+            "adTypes": [
+              "Video"
+            ],
+            "positions": []
+          },
+          "Footer Ad": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Top Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        }
+      },
+      "SPO": {
+        "Run of Site": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [
+              "Video"
+            ],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        }
+      },
+      "TAWcom": {
+        "Run of Site": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [
+              "Expanded Ad",
+              "Video"
+            ],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        }
+      },
+      "TMScom": {
+        "Run of Site": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        }
+      },
+      "TPCA": {
+        "Run of Site": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Inline 630x60": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Interstitial": {
+            "adTypes": [
+              "Desktop 970x250",
+              "Mobile 300x250"
+            ],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": [
+              "Bottom"
+            ]
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": [
+              "Bottom",
+              "Top"
+            ]
+          },
+          "Mobile Scroller": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Nav CTA Text Scroller": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": [
+              "Top"
+            ]
+          }
+        }
+      },
+      "TPQUE": {
+        "Run of Site": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Inline 630x60": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Interstitial": {
+            "adTypes": [
+              "Desktop 970x250",
+              "Mobile 300x250"
+            ],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": [
+              "Bottom"
+            ]
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": [
+              "Bottom",
+              "Top"
+            ]
+          },
+          "Mobile Scroller": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Nav CTA Text Scroller": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": [
+              "Top"
+            ]
+          }
+        }
+      },
+      "TPUS": {
+        "Run of Site": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Desktop 970x250": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Inline 630x60": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Interstitial": {
+            "adTypes": [
+              "Desktop 970x250",
+              "Mobile 300x250"
+            ],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Scroller": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Nav CTA Text Scroller": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Pop Up": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Slideshow Ad": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        }
+      },
+      "TTEcom": {
+        "Run of Site": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        }
+      },
+      "TWAcom": {
+        "Run of Site": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Facebook Exchange": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Full Page Flex": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        }
+      },
+      "TWCcom": {
+        "Run of Site": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Side Panels": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        }
+      },
+      "TWcom": {
+        "Run of Site": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [
+              "Video"
+            ],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        }
+      },
+      "VFTcom": {
+        "Run of Site": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [],
+            "positions": [
+              "Bottom"
+            ]
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": [
+              "Bottom",
+              "Top"
+            ]
+          }
+        }
+      },
+      "WEISS": {
+        "Run of Site": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        }
+      }
+    },
+    "On-Site Advertising: Takeover - Homepage": {
+      "AMIcom": {
+        "Home Page": {
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": [
+              "Bottom"
+            ]
+          }
+        }
+      },
+      "BTNEcom": {
+        "Home Page": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": [
+              "Bottom",
+              "Top 1"
+            ]
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": [
+              "Right 1",
+              "Right 2",
+              "Right 3"
+            ]
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        }
+      },
+      "BTNcom": {
+        "Home Page": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        }
+      },
+      "CScom": {
+        "Home Page": {
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        }
+      },
+      "HITcom": {
+        "Home Page": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        }
+      },
+      "INCcom": {
+        "Home Page": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": [
+              "Middle 2"
+            ]
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          }
+        }
+      },
+      "MCAcom": {
+        "Home Page": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": [
+              "Middle 2"
+            ]
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          }
+        }
+      },
+      "MCO": {
+        "Home Page": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": [
+              "Middle 2"
+            ]
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          }
+        }
+      },
+      "MITcom": {
+        "Home Page": {
+          "Billboard": {
+            "adTypes": [],
+            "positions": [
+              "Bottom",
+              "Middle",
+              "Top"
+            ]
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": [
+              "Right 1",
+              "Right 2"
+            ]
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": [
+              "Bottom",
+              "Top"
+            ]
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": [
+              "Bottom",
+              "Middle",
+              "Top"
+            ]
+          }
+        }
+      },
+      "NMG": {
+        "Home Page": {
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Side Panels": {
+            "adTypes": [],
+            "positions": []
+          }
+        }
+      },
+      "PCWWcom": {
+        "Home Page": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        }
+      },
+      "SMcom": {
+        "Home Page": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": [
+              "Middle 2"
+            ]
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          }
+        }
+      },
+      "SPO": {
+        "Home Page": {
+          "728x90": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        }
+      },
+      "TAWcom": {
+        "Home Page": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        }
+      },
+      "TPUS": {
+        "Home Page": {
+          "Billboard": {
+            "adTypes": [],
+            "positions": [
+              "Bottom",
+              "Middle 1",
+              "Middle 2",
+              "Top"
+            ]
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": [
+              "Right 1",
+              "Right 2",
+              "Right 3",
+              "Right 4"
+            ]
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": [
+              "Bottom",
+              "Inline 1",
+              "Inline 2",
+              "Top"
+            ]
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        }
+      },
+      "TWAcom": {
+        "Home Page": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Side Panels": {
+            "adTypes": [],
+            "positions": []
+          }
+        }
+      },
+      "TWcom": {
+        "Home Page": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Side Panels": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Wallpaper": {
+            "adTypes": [],
+            "positions": []
+          }
+        }
+      }
+    },
+    "On-Site Advertising: Takeover - Page Sponsorship": {
+      "AMIcom": {
+        "(No Option)": {},
+        "Destination Guide": {
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Destination Guide Retargeting ROS": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Issue: Shorthand Destination Feature": {
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Issue: Shorthand Event Programme": {
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Find Event Venue": {
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Side Panels": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "First Look Research": {
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "News Posts": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "600x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Thought Leadership": {
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Video Spotlight": {
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        }
+      },
+      "BLO": {
+        "(No Option)": {}
+      },
+      "BTNEcom": {
+        "(No Option)": {},
+        "Accommodation": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Air Travel": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "BTS": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Business Intelligence": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Columnists": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Databank": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Issue: BT Recovery": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Issue: CT 50": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Half Page 300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Issue: DEI": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Issue: Distribution": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Half Page 300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Issue: Duty of Care": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Issue: ESG": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Half Page 300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Issue: Future of Meetings": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Issue: Hotlist": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Half Page 300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Issue: OBT": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Issue: Payment": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Issue: SME": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Issue: Salary survey/Outlook/Innovation": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Half Page 300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Issue: Shorthand Event Programme": {
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Issue: Sourcing Guide": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Issue: Spotlight: Accommodation": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Half Page 300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Issue: Spotlight: Air": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Half Page 300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Issue: Spotlight: Ground transport": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Half Page 300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Issue: Spotlight: TMC": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Half Page 300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Issue: Spotlight: Traveller Experience": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Half Page 300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Issue: Sustainability": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Corporate Profile": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Issue: TMC": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Issue: Tech Report": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Distribution": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Events": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Expert Q&A": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Global View": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Ground Transport": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Hot List": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Management": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Meetings": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "On the Move": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Payment": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Procurement": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Research": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Sustainability": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "TMC": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Technology": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Top 50": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Traveler Experience": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          }
+        }
+      },
+      "BTNcom": {
+        "(No Option)": {},
+        "BTN Global": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "BTN Intelligence": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "BTN Next": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Business Intelligence": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "CTI Calculator": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Issue: Airline Survey": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Half Page 300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Issue: BT Handbook": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Half Page 300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Issue: BT Recovery": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Half Page 300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Issue: Business Traveler Report": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Issue: CT 100": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Half Page 300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Issue: CT Index": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Half Page 300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Issue: Car Rental": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Half Page 300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Issue: DEI": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Half Page 300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Issue: Future of Meetings": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Half Page 300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Issue: Hall of Fame": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Issue: Hotel Survey": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Half Page 300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Issue: Innovation Issue": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Half Page 300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Issue: Loyalty & CT Report": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Half Page 300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Issue: Meetings Management": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Half Page 300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Issue: Most Influential": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Half Page 300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Issue: NDC: One Year In": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Half Page 300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Issue: OBT": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Half Page 300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Issue: Role of TM": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Half Page 300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Issue: SME": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Half Page 300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Issue: Salary Survey": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Half Page 300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Issue: State of the Business Travel Industry Report": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Issue: Sustainability": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Half Page 300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Issue: TMC Reboot": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Half Page 300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Issue: Technology Report": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Half Page 300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Issue: Travel Mgr of the Yr": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Half Page 300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Issue: Travel Procurement": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Half Page 300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Issue: Traveler Experience": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Half Page 300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Issue: What to Watch": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Half Page 300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Distribution": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Downloadable Guide": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Events": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Global View": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Interviews": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Learning Center": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Lodging": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Meetings": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Payment": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Modal 500x620": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Procurement": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Research": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "SME": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Sustainability": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Technology": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Transportation": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Modal 500x620": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Travel Management": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          }
+        }
+      },
+      "BTSEcom": {
+        "(No Option)": {}
+      },
+      "BTScom": {
+        "(No Option)": {}
+      },
+      "CScom": {
+        "(No Option)": {}
+      },
+      "HITcom": {
+        "(No Option)": {},
+        "Advertiser Spotlight": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Partner Spotlight": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Vision Video": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        }
+      },
+      "INCcom": {
+        "(No Option)": {},
+        "Advertiser Spotlight": {
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Top Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Facility Search": {
+          "Bottom Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Interstitial": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": [
+              "Middle 1"
+            ]
+          },
+          "Top Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Wide Skyscraper": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Featured Article": {
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Partner Spotlight": {
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Top Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Thought Leadership": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Trusted Brands": {
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          }
+        }
+      },
+      "MCAcom": {
+        "(No Option)": {},
+        "Blogs": {
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Top Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Destination Month": {
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Top Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Facility Search": {
+          "Bottom Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Interstitial": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": [
+              "Middle 1"
+            ]
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Top Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Wide Skyscraper": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Hot Ideas": {
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Top Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Luxury Month": {
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Top Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Meeting Deals": {
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Sports Digital Edition": {},
+        "Wellness": {
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Top Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        }
+      },
+      "MCCcom": {
+        "(No Option)": {}
+      },
+      "MCO": {
+        "(No Option)": {},
+        "Advertiser Spotlight": {
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Top Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Blogs": {
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Top Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Destination Guide Retargeting ROS": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Edition: M&C": {
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Digital Bellyband": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard Letter": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Left of Front Cover": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Facility Search": {
+          "Bottom Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Interstitial": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": [
+              "Middle 1"
+            ]
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Top Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Wide Skyscraper": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Featured Article": {
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Find Event Venue": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Side Panels": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Hot Ideas": {
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Top Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Hotel Guide Retargeting ROS": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Partner Spotlight": {
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Top Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Savvy Planner": {
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Top Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Thought Leadership": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Wellness": {
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Top Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        }
+      },
+      "MITcom": {
+        "(No Option)": {},
+        "Destination Guide": {
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Destination Guide Retargeting ROS": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Issue: Shorthand Destination Feature": {
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Issue: Shorthand Event Programme": {
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Events Posts": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "600x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Find Event Venue": {
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Side Panels": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "First Look Research": {
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "News Posts": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "600x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Thought Leadership": {
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Video Spotlight": {
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        }
+      },
+      "NMG": {
+        "(No Option)": {},
+        "Advertiser Spotlight": {
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Content Search Sponsorship": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Destination Guide": {
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Destination Guide Retargeting ROS": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Destination Guide Tier 2": {
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Discover Quiz": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Event Ideas": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Find Event Venue": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Side Panels": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "First Look Results Article": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Hotel Guide": {
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Hotel Guide Retargeting ROS": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Incentive": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "NMG Learning Academy": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "On Topic": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Partner Spotlight": {
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Planner Challenges Article": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Podcast": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Side Panels": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Podcast Episode Page": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Sponsored Article": {
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Thought Leadership": {
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Venue Guide": {
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Video Spotlight": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        }
+      },
+      "NMG UK": {
+        "(No Option)": {},
+        "-": {
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Destination Guide": {
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Destination Guide Retargeting ROS": {
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Destination Guide Tier 1": {
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Destination Guide Tier 2": {
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Discover Quiz": {
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Downloadable Guide": {
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Find Event Venue": {
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "First Look Research": {
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "First Look Results Article": {
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "The Meeting Room": {
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        }
+      },
+      "PCWWcom": {
+        "(No Option)": {},
+        "Sponsored Content": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        }
+      },
+      "SMcom": {
+        "(No Option)": {},
+        "Advertiser Spotlight": {
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Blogs": {
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Top Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Destination Guide Retargeting ROS": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Facility Search": {
+          "Bottom Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Interstitial": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": [
+              "Middle 1"
+            ]
+          },
+          "Top Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Wide Skyscraper": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Featured Article": {
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Find Event Venue": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Side Panels": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Hotel Guide Retargeting ROS": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "How To": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Media Library": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Partner Spotlight": {
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Thought Leadership": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Top 10": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          }
+        }
+      },
+      "SPD": {
+        "(No Option)": {},
+        "Digital Edition: Sports Digital Edition": {
+          "2 Thirds Page Vertical ad": {
+            "adTypes": [],
+            "positions": []
+          },
+          "2 page Spread Ad": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Digital Bellyband": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Full Page 4 Color Ad": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Full Page Ad": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Half Page Horizontal Ad": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Half Page Horizontal Spread Ad": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Half Page Island Ad": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard Letter": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Left of Front Cover": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Third Page Square Ad": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Third Page Vertical Ad": {
+            "adTypes": [],
+            "positions": []
+          }
+        }
+      },
+      "SPO": {
+        "(No Option)": {},
+        "Advertiser Spotlight": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Top Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Bid Bowl": {
+          "300x600": {
+            "adTypes": [
+              "Retargeting ROS"
+            ],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [
+              "Retargeting ROS"
+            ],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [
+              "Retargeting ROS"
+            ],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [
+              "Retargeting ROS"
+            ],
+            "positions": []
+          }
+        },
+        "Destination Guide": {
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Destination Guide Retargeting ROS": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Discover Quiz": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Partner Spotlight": {
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Top Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Podcast": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Podcast Episode Page": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Venue Guide": {
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Venue Guide Retargeting ROS": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Video Spotlight": {
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        }
+      },
+      "TAWcom": {
+        "(No Option)": {},
+        "Adventure Travel": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Africa/ME": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Asia/Pacific": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Aviation": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Caribbean": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Content Hub": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Cruise": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Cruise Search": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Culinary": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Edition: Future Leaders Digital Yearbook": {
+          "Digital Full Page": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Digital Spread": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Full Page Ad": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Edition: Hawaii for the Western Traveler": {
+          "Digital Full Page": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Digital Spread": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Edition: Mexico for the Western Traveler": {
+          "Digital Full Page": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Digital Spread": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Edition: Ocean & River Ship Preview": {
+          "Digital Full Page": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Edition: Ocean Ship Preview": {
+          "Full Page Ad": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Edition: River Cruise Ship Preview": {
+          "Full Page Ad": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Edition: Wave Award Winners": {
+          "Ad Spread": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Digital Full Page": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Digital Spread": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Full Page Ad": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Edition: Western": {
+          "Full Page Ad": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Europe": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Family Getaways": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Hawaii": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Hotel Search": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Luxury": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Mexico": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "River Cruise": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Romance": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Search Results": {
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "So./Cen. Amer.": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Thought Leadership": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Tours": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "USA/Canada": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Wellness": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          }
+        }
+      },
+      "TMScom": {
+        "(No Option)": {}
+      },
+      "TPCA": {
+        "(No Option)": {},
+        "Category 1": {
+          "Fixed Footer": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Inline 630x60": {
+            "adTypes": [],
+            "positions": [
+              "Middle-Inline 1",
+              "Middle-Inline 2",
+              "Middle-Inline 3"
+            ]
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": [
+              "Bottom",
+              "Top"
+            ]
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": [
+              "Right 1",
+              "Right 10",
+              "Right 11",
+              "Right 2",
+              "Right 3",
+              "Right 4",
+              "Right 5",
+              "Right 6",
+              "Right 7",
+              "Right 8",
+              "Right 9"
+            ]
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": [
+              "Middle 4",
+              "Middle-Inline 1",
+              "Middle-Inline 2",
+              "Middle-Inline 3"
+            ]
+          },
+          "Mobile Scroller": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Nav CTA Text Scroller": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": [
+              "Middle 4",
+              "Middle-Inline 1",
+              "Middle-Inline 2",
+              "Middle-Inline 3"
+            ]
+          },
+          "Wallpaper": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Category 2": {
+          "Fixed Footer": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Inline 630x60": {
+            "adTypes": [],
+            "positions": [
+              "Inline 1",
+              "Inline 2",
+              "Inline 3"
+            ]
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": [
+              "Right 1",
+              "Right 10",
+              "Right 11",
+              "Right 2",
+              "Right 3",
+              "Right 4",
+              "Right 5",
+              "Right 6",
+              "Right 7",
+              "Right 8",
+              "Right 9"
+            ]
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": [
+              "Inline 1",
+              "Inline 2",
+              "Inline 3"
+            ]
+          },
+          "Mobile Scroller": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Wallpaper": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Category 3": {
+          "Fixed Footer": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Scroller": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Wallpaper": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Category 4": {
+          "Mobile Scroller": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Edition: RCA Winners": {
+          "Digital Full Page": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Digital Half Page": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Digital Spread": {
+            "adTypes": [],
+            "positions": []
+          }
+        }
+      },
+      "TPQUE": {
+        "(No Option)": {},
+        "Category 1": {
+          "Fixed Footer": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Inline 630x60": {
+            "adTypes": [],
+            "positions": [
+              "Middle-Inline 1",
+              "Middle-Inline 2",
+              "Middle-Inline 3"
+            ]
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": [
+              "Right 1",
+              "Right 10",
+              "Right 11",
+              "Right 2",
+              "Right 3",
+              "Right 4",
+              "Right 5",
+              "Right 6",
+              "Right 7",
+              "Right 8",
+              "Right 9"
+            ]
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": [
+              "Middle 4",
+              "Middle-Inline 1",
+              "Middle-Inline 2",
+              "Middle-Inline 3"
+            ]
+          },
+          "Mobile Scroller": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Nav CTA Text Scroller": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": [
+              "Middle 4",
+              "Middle-Inline 1",
+              "Middle-Inline 2",
+              "Middle-Inline 3"
+            ]
+          },
+          "Wallpaper": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Category 2": {
+          "Fixed Footer": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Inline 630x60": {
+            "adTypes": [],
+            "positions": [
+              "Inline 1",
+              "Inline 2",
+              "Inline 3"
+            ]
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": [
+              "Right 1",
+              "Right 10",
+              "Right 11",
+              "Right 2",
+              "Right 3",
+              "Right 4",
+              "Right 5",
+              "Right 6",
+              "Right 7",
+              "Right 8",
+              "Right 9"
+            ]
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": [
+              "Inline 1",
+              "Inline 2",
+              "Inline 3"
+            ]
+          },
+          "Mobile Scroller": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Wallpaper": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Category 3": {
+          "Fixed Footer": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Scroller": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Wallpaper": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Category 4": {
+          "Mobile Scroller": {
+            "adTypes": [],
+            "positions": []
+          }
+        }
+      },
+      "TPUS": {
+        "(No Option)": {},
+        "Category: Airlines & Airports and Car Rental & Rail": {
+          "Billboard": {
+            "adTypes": [],
+            "positions": [
+              "Bottom",
+              "Top"
+            ]
+          },
+          "Inline 630x60": {
+            "adTypes": [],
+            "positions": [
+              "Inline 1"
+            ]
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": [
+              "Right 1",
+              "Right 3"
+            ]
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": [
+              "Inline 1",
+              "Inline 2",
+              "Top"
+            ]
+          },
+          "Mobile Scroller": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Category: Business Travel & Travel Technology": {
+          "Billboard": {
+            "adTypes": [],
+            "positions": [
+              "Bottom",
+              "Top"
+            ]
+          },
+          "Inline 630x60": {
+            "adTypes": [],
+            "positions": [
+              "Inline 1"
+            ]
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": [
+              "Right 1",
+              "Right 3"
+            ]
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": [
+              "Inline 1",
+              "Inline 2",
+              "Top"
+            ]
+          },
+          "Mobile Scroller": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Category: Cruise": {
+          "Billboard": {
+            "adTypes": [],
+            "positions": [
+              "Bottom",
+              "Top"
+            ]
+          },
+          "Inline 630x60": {
+            "adTypes": [],
+            "positions": [
+              "Inline 1"
+            ]
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": [
+              "Right 1",
+              "Right 3"
+            ]
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": [
+              "Inline 1",
+              "Inline 2",
+              "Top"
+            ]
+          },
+          "Mobile Scroller": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Category: Destination & Tourism": {
+          "Billboard": {
+            "adTypes": [],
+            "positions": [
+              "Bottom",
+              "Top"
+            ]
+          },
+          "Inline 630x60": {
+            "adTypes": [],
+            "positions": [
+              "Inline 1"
+            ]
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": [
+              "Right 1",
+              "Right 3"
+            ]
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": [
+              "Inline 1",
+              "Inline 2",
+              "Top"
+            ]
+          },
+          "Mobile Scroller": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Category: Features & Advice": {
+          "Billboard": {
+            "adTypes": [],
+            "positions": [
+              "Bottom",
+              "Top"
+            ]
+          },
+          "Inline 630x60": {
+            "adTypes": [],
+            "positions": [
+              "Inline 1"
+            ]
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": [
+              "Right 1",
+              "Right 3"
+            ]
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": [
+              "Inline 1",
+              "Inline 2",
+              "Top"
+            ]
+          },
+          "Mobile Scroller": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Category: Hotels & Resorts": {
+          "Billboard": {
+            "adTypes": [],
+            "positions": [
+              "Bottom",
+              "Top"
+            ]
+          },
+          "Inline 630x60": {
+            "adTypes": [],
+            "positions": [
+              "Inline 1"
+            ]
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": [
+              "Right 1",
+              "Right 3"
+            ]
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": [
+              "Inline 1",
+              "Inline 2",
+              "Top"
+            ]
+          },
+          "Mobile Scroller": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Category: Impacting Travel": {
+          "Billboard": {
+            "adTypes": [],
+            "positions": [
+              "Bottom",
+              "Top"
+            ]
+          },
+          "Inline 630x60": {
+            "adTypes": [],
+            "positions": [
+              "Inline 1"
+            ]
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": [
+              "Right 1",
+              "Right 3"
+            ]
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": [
+              "Inline 1",
+              "Inline 2",
+              "Top"
+            ]
+          },
+          "Mobile Scroller": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Category: LGBTQ": {
+          "Billboard": {
+            "adTypes": [],
+            "positions": [
+              "Bottom",
+              "Top"
+            ]
+          },
+          "Inline 630x60": {
+            "adTypes": [],
+            "positions": [
+              "Inline 1"
+            ]
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": [
+              "Right 1",
+              "Right 3"
+            ]
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": [
+              "Inline 1",
+              "Inline 2",
+              "Top"
+            ]
+          },
+          "Mobile Scroller": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Category: Luxury": {
+          "Billboard": {
+            "adTypes": [],
+            "positions": [
+              "Bottom",
+              "Top"
+            ]
+          },
+          "Inline 630x60": {
+            "adTypes": [],
+            "positions": [
+              "Inline 1"
+            ]
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": [
+              "Right 1",
+              "Right 3"
+            ]
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": [
+              "Inline 1",
+              "Inline 2",
+              "Top"
+            ]
+          },
+          "Mobile Scroller": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Category: People & Entertainment": {
+          "Billboard": {
+            "adTypes": [],
+            "positions": [
+              "Bottom",
+              "Top"
+            ]
+          },
+          "Inline 630x60": {
+            "adTypes": [],
+            "positions": [
+              "Inline 1"
+            ]
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": [
+              "Right 1",
+              "Right 3"
+            ]
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": [
+              "Inline 1",
+              "Inline 2",
+              "Top"
+            ]
+          },
+          "Mobile Scroller": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Category: River Cruise": {
+          "Billboard": {
+            "adTypes": [],
+            "positions": [
+              "Bottom",
+              "Top"
+            ]
+          },
+          "Inline 630x60": {
+            "adTypes": [],
+            "positions": [
+              "Inline 1"
+            ]
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": [
+              "Right 1",
+              "Right 3"
+            ]
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": [
+              "Inline 1",
+              "Inline 2",
+              "Top"
+            ]
+          },
+          "Mobile Scroller": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Category: Tour Operator and Vacation Packages": {
+          "Billboard": {
+            "adTypes": [],
+            "positions": [
+              "Bottom",
+              "Top"
+            ]
+          },
+          "Inline 630x60": {
+            "adTypes": [],
+            "positions": [
+              "Inline 1"
+            ]
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": [
+              "Right 1",
+              "Right 3"
+            ]
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": [
+              "Inline 1",
+              "Inline 2",
+              "Top"
+            ]
+          },
+          "Mobile Scroller": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Category: Travel Agent and Host Agency & Consortia": {
+          "Billboard": {
+            "adTypes": [],
+            "positions": [
+              "Bottom",
+              "Top"
+            ]
+          },
+          "Inline 630x60": {
+            "adTypes": [],
+            "positions": [
+              "Inline 1"
+            ]
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": [
+              "Right 1",
+              "Right 3"
+            ]
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": [
+              "Inline 1",
+              "Inline 2",
+              "Top"
+            ]
+          },
+          "Mobile Scroller": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Content: Caribbean": {
+          "Billboard": {
+            "adTypes": [],
+            "positions": [
+              "Bottom",
+              "Top"
+            ]
+          },
+          "Inline 630x60": {
+            "adTypes": [],
+            "positions": [
+              "Inline 1"
+            ]
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": [
+              "Right 1",
+              "Right 3"
+            ]
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": [
+              "Inline 1",
+              "Inline 2",
+              "Top"
+            ]
+          },
+          "Mobile Scroller": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Content: Europe": {
+          "Billboard": {
+            "adTypes": [],
+            "positions": [
+              "Bottom",
+              "Top"
+            ]
+          },
+          "Inline 630x60": {
+            "adTypes": [],
+            "positions": [
+              "Inline 1"
+            ]
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": [
+              "Right 1",
+              "Right 3"
+            ]
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": [
+              "Inline 1",
+              "Inline 2",
+              "Top"
+            ]
+          },
+          "Mobile Scroller": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Content: Hawaii": {
+          "Billboard": {
+            "adTypes": [],
+            "positions": [
+              "Bottom",
+              "Top"
+            ]
+          },
+          "Inline 630x60": {
+            "adTypes": [],
+            "positions": [
+              "Inline 1"
+            ]
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": [
+              "Right 1",
+              "Right 3"
+            ]
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": [
+              "Inline 1",
+              "Inline 2",
+              "Top"
+            ]
+          },
+          "Mobile Scroller": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Content: Mexico": {
+          "Billboard": {
+            "adTypes": [],
+            "positions": [
+              "Bottom",
+              "Top"
+            ]
+          },
+          "Inline 630x60": {
+            "adTypes": [],
+            "positions": [
+              "Inline 1"
+            ]
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": [
+              "Right 1",
+              "Right 3"
+            ]
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": [
+              "Inline 1",
+              "Inline 2",
+              "Top"
+            ]
+          },
+          "Mobile Scroller": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Content: Polar Region": {
+          "Billboard": {
+            "adTypes": [],
+            "positions": [
+              "Bottom",
+              "Top"
+            ]
+          },
+          "Inline 630x60": {
+            "adTypes": [],
+            "positions": [
+              "Inline 1"
+            ]
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": [
+              "Right 1",
+              "Right 3"
+            ]
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": [
+              "Inline 1",
+              "Inline 2",
+              "Top"
+            ]
+          },
+          "Mobile Scroller": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Content: United States": {
+          "Billboard": {
+            "adTypes": [],
+            "positions": [
+              "Bottom",
+              "Top"
+            ]
+          },
+          "Inline 630x60": {
+            "adTypes": [],
+            "positions": [
+              "Inline 1"
+            ]
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": [
+              "Right 1",
+              "Right 3"
+            ]
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": [
+              "Inline 1",
+              "Inline 2",
+              "Top"
+            ]
+          },
+          "Mobile Scroller": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Edition: Agent Appreciation": {
+          "Digital Full Page": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Digital Half Page": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Full Page Ad": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Edition: Travvy Awards": {
+          "Ad Spread": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Digital Full Page": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Digital Half Page": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Digital Spread": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Full Page Ad": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Filter Sponsorship": {
+          "126x29": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Giveaway": {
+          "Pop Up": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "On the Pulse": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Inline 630x60": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        }
+      },
+      "TTEcom": {
+        "(No Option)": {}
+      },
+      "TWAcom": {
+        "(No Option)": {},
+        "Search Sponsorship": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          }
+        }
+      },
+      "TWCcom": {
+        "(No Option)": {}
+      },
+      "TWcom": {
+        "(No Option)": {},
+        "Africa/Mid East": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Agent Issues": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Asia/Pacific": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Aviation": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Caribbean": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Central/So. Amer.": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Consumer Trends": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Content Hub": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Corporate Travel": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Cruise": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Cruise Search": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Cruise Search HPTO": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Side Panels": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Cruise Search Ports": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Edition: RCA Award Winners": {
+          "Ad Spread": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Full Page Ad": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Edition: RCA Winners": {
+          "Digital Full Page": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Digital Spread": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Digital Edition: What's New": {
+          "Ad Spread": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Digital Full Page": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Digital Spread": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Front Page Ad": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Full Page Ad": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Europe": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Family Travel": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Financial": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Gov't. Affairs": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Ground Transport.": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Hawaii": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Hotel": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Hotel Search": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Hotel Search Cities/Areas": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Luxury": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Mexico": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "No. America": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Retail": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "River Cruise": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Search Sponsorship": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Technology": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Thought Leadership": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Mobile Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        },
+        "Tour Operator": {
+          "300x600": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Billboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Medium Rectangle": {
+            "adTypes": [],
+            "positions": []
+          },
+          "Super Leaderboard": {
+            "adTypes": [],
+            "positions": []
+          }
+        }
+      },
+      "VFTcom": {
+        "(No Option)": {}
+      },
+      "WEISS": {
+        "(No Option)": {}
+      }
+    }
+  }
+}
