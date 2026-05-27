@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Northstar Digital Fulfillment Cascade</title>
-<script src="https://cdn.jotfor.ms/s/umd/latest/for-form-widgets.js"></script>
+<script src="https://cdn.jotfor.ms/s/umd/latest/for-custom-widgets.js"></script>
 <style>
   /*
    * Visual goal: match the Jotform default form theme.
@@ -403,44 +403,57 @@
       setNotice('Could not load configuration data. ' + err.message, true);
     });
 
-  // Hook Jotform lifecycle
-  if (typeof JFCustomWidget !== 'undefined') {
-    JFCustomWidget.subscribe('ready', function (data) {
-      // DIAGNOSTIC: log everything Jotform passes us
-      console.log('[NorthstarCascade] ready event data:', data);
-      try {
-        console.log('[NorthstarCascade] setting lineItemName:', JFCustomWidget.getWidgetSetting('lineItemName'));
-        console.log('[NorthstarCascade] setting lineitemname:', JFCustomWidget.getWidgetSetting('lineitemname'));
-        console.log('[NorthstarCascade] setting LineItemName:', JFCustomWidget.getWidgetSetting('LineItemName'));
-      } catch (e) {
-        console.warn('[NorthstarCascade] getWidgetSetting failed:', e);
-      }
+  // Read lineItemName from the parent URL — a reliable fallback that
+  // works even if the Jotform SDK fails. HubSpot prefills the form via
+  // ?lineitemname=... in the URL.
+  function readLineItemNameFromParent() {
+    try {
+      var parentUrl = document.referrer || window.location.href || '';
+      if (!parentUrl) return '';
+      var qs = parentUrl.split('?')[1] || '';
+      if (!qs) return '';
+      var params = new URLSearchParams(qs);
+      return params.get('lineitemname') ||
+             params.get('lineItemName') ||
+             params.get('p') ||
+             '';
+    } catch (e) {
+      return '';
+    }
+  }
 
+  // ---- INIT ----
+  // First, set lineItemName from the parent URL as the baseline
+  var fromUrl = readLineItemNameFromParent();
+  if (fromUrl) {
+    lineItemName = decodeURIComponent(fromUrl).trim();
+    console.log('[NorthstarCascade] lineItemName from parent URL:', JSON.stringify(lineItemName));
+  }
+
+  // Hook Jotform SDK if present — the SDK can give us a widget setting
+  // value that takes precedence over the URL value, and gives us write-back.
+  if (typeof JFCustomWidget !== 'undefined') {
+    console.log('[NorthstarCascade] Jotform SDK present');
+
+    JFCustomWidget.subscribe('ready', function (data) {
+      console.log('[NorthstarCascade] ready event data:', data);
+
+      var settingValue = '';
       try {
-        // Try multiple spellings — Jotform may pass the setting key in different cases
-        // depending on how the form sends data (e.g. HubSpot prefill comes through as 'lineitemname').
-        var passed =
+        settingValue =
           JFCustomWidget.getWidgetSetting('lineItemName') ||
           JFCustomWidget.getWidgetSetting('lineitemname') ||
           JFCustomWidget.getWidgetSetting('LineItemName') ||
           '';
-        // Also fall back to reading from the parent URL query string directly
-        if (!passed) {
-          try {
-            var parentUrl = (data && data.parentUrl) || document.referrer || '';
-            if (parentUrl) {
-              var qs = parentUrl.split('?')[1] || '';
-              var params = new URLSearchParams(qs);
-              passed = params.get('lineitemname') || params.get('lineItemName') || '';
-              if (passed) console.log('[NorthstarCascade] read lineitemname from parent URL:', passed);
-            }
-          } catch (e2) { /* ignore */ }
-        }
-        lineItemName = (passed || '').trim();
-        console.log('[NorthstarCascade] final lineItemName resolved to:', JSON.stringify(lineItemName));
+        console.log('[NorthstarCascade] widget setting lineItemName:', JSON.stringify(settingValue));
       } catch (e) {
-        lineItemName = '';
+        console.warn('[NorthstarCascade] getWidgetSetting failed:', e);
       }
+
+      if (settingValue) {
+        lineItemName = settingValue.trim();
+      }
+
       if (mapping) startCascade();
     });
 
@@ -452,10 +465,11 @@
       });
     });
   } else {
-    // Standalone preview: try a query string ?p=Product+Name for local testing
-    var qs = new URLSearchParams(window.location.search);
-    lineItemName = qs.get('p') || '';
+    console.warn('[NorthstarCascade] Jotform SDK not found — running in standalone mode (no write-back)');
   }
+
+  // If mapping has already loaded and we have a lineItemName, kick off
+  if (mapping && lineItemName) startCascade();
 })();
 </script>
 
