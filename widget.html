@@ -406,12 +406,38 @@
   // Hook Jotform lifecycle
   if (typeof JFCustomWidget !== 'undefined') {
     JFCustomWidget.subscribe('ready', function (data) {
-      // The widget's "linkedFieldName" or settings can carry the product name.
-      // We pull from a widget setting called "lineItemName" that the form-builder
-      // will populate with the Jotform field reference {lineitemname}.
+      // DIAGNOSTIC: log everything Jotform passes us
+      console.log('[NorthstarCascade] ready event data:', data);
       try {
-        var passed = JFCustomWidget.getWidgetSetting('lineItemName') || '';
+        console.log('[NorthstarCascade] setting lineItemName:', JFCustomWidget.getWidgetSetting('lineItemName'));
+        console.log('[NorthstarCascade] setting lineitemname:', JFCustomWidget.getWidgetSetting('lineitemname'));
+        console.log('[NorthstarCascade] setting LineItemName:', JFCustomWidget.getWidgetSetting('LineItemName'));
+      } catch (e) {
+        console.warn('[NorthstarCascade] getWidgetSetting failed:', e);
+      }
+
+      try {
+        // Try multiple spellings — Jotform may pass the setting key in different cases
+        // depending on how the form sends data (e.g. HubSpot prefill comes through as 'lineitemname').
+        var passed =
+          JFCustomWidget.getWidgetSetting('lineItemName') ||
+          JFCustomWidget.getWidgetSetting('lineitemname') ||
+          JFCustomWidget.getWidgetSetting('LineItemName') ||
+          '';
+        // Also fall back to reading from the parent URL query string directly
+        if (!passed) {
+          try {
+            var parentUrl = (data && data.parentUrl) || document.referrer || '';
+            if (parentUrl) {
+              var qs = parentUrl.split('?')[1] || '';
+              var params = new URLSearchParams(qs);
+              passed = params.get('lineitemname') || params.get('lineItemName') || '';
+              if (passed) console.log('[NorthstarCascade] read lineitemname from parent URL:', passed);
+            }
+          } catch (e2) { /* ignore */ }
+        }
         lineItemName = (passed || '').trim();
+        console.log('[NorthstarCascade] final lineItemName resolved to:', JSON.stringify(lineItemName));
       } catch (e) {
         lineItemName = '';
       }
